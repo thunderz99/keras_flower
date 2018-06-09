@@ -1,0 +1,13 @@
+Flask==0.12.2
+Flask-Bcrypt==0.7.1
+Flask-Cors==3.0.3
+Flask-Migrate==2.1.0
+Flask-Script==2.0.5
+Flask-SQLAlchemy==2.2
+Flask-Testing==0.6.2
+Pillow==4.2.1
+Werkzeug==0.12.2
+numpy==1.14.3
+h5py==2.7.1
+tensorflow==1.8.0
+Keras==2.1.6
