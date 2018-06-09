@@ -90,7 +90,7 @@ class ImageModel:
             print("---category dir:", category_dir)
 
             for file in os.listdir(category_dir):
-                if file != ".DS_Store":
+                if file != ".DS_Store" and file != ".keep":
                     filepath = category_dir + "/" + file
                     image = self.preprocess_image(filepath)
                     # 出来上がった配列をimage_listに追加。
